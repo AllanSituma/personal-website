@@ -1,17 +1,15 @@
-
-title: My Resume
-url: 'http://junlulocky.com'
-baseurl: '/PanelCV' #change it according to your repository name
-
-
-
-# Profile information
-yourname: Allan Situma  ## put your name
-title: 'BI Developer | Data Engineer | Machine Learning Engineer | Cloud Data Architect'  ## your title
+---
+title: BI Developer | Data Engineer | Machine Learning Engineer | Cloud Data Architect
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: http://junlulocky.com
+baseurl: "/PanelCV"
+yourname: Allan Situma
 location: San Francisco , CA
-
-
-## Social Profiles
-linkedin: http://www.linkedin.com  ## your linkedin account url
-
-# Update all the sections by editing the files inside _includes folder.
+linkedin: http://www.linkedin.com
